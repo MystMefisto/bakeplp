@@ -103,10 +103,9 @@ body {
 }
 
 #service-h2 {
-  flex-grow: 1;
   text-align: center;
   background-color: #f6cdf8;
-  margin: auto 25%;
+  margin: auto 25vw;
 }
 
 .service_container {
@@ -118,22 +117,19 @@ body {
 }
 
 .service-img {
-  width: 15%;
+  width: 35%;
   height: auto;
   flex-grow: 1;
 }
 
 .service_div {
-  flex-grow: 3;
   display: flex;
   padding: 1% 0;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 10%;
 }
 
 .service_title {
-  flex-grow: 1;
   align-self: stretch;
   text-align: flex-start;
 }
@@ -141,7 +137,7 @@ body {
 .service_description {
   flex-grow: 3;
   text-align: justify;
-  width: 50%;
+  width: 100%;
   margin-bottom: 4%;
 }
 
@@ -313,7 +309,7 @@ span {
   }
 
   #main {
-    padding-top: 20%;
+    padding-top: 30%;
     margin: auto 10%;
   }
 
@@ -330,19 +326,23 @@ span {
     align-items: center;
   }
 
+  .service_title {
+    text-align: center;
+  }
+
   .service_description {
     font-size: 3vw;
     width: 100%;
   }
 
   .service-img {
-    margin: 10%;
     width: 45%;
   }
 
   #gallery-div {
     padding-top: 17%;
-    margin: auto;
+    margin: 0% .2%;
+    width:100%;
   }
 
   #gallery-h2 {
@@ -383,7 +383,7 @@ span {
   #footer-div {
     display: flex;
     display: row;
-    margin: auto 10%;
+    margin: 0 0%;
   }
 
   #footer {
@@ -397,9 +397,12 @@ span {
   }
 
   #copyright {
-    align-self: flex-end;
+    align-self: center;
     justify-content: flex-end;
-    padding-bottom: 0;
     flex-grow: 1;
+  }
+  #copyright sub{
+    font-size:2.5vw;
+    margin:3% 0;
   }
 }
