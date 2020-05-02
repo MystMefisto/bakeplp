@@ -98,28 +98,27 @@ body {
 #main {
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
-  padding-top: 10%;
+  padding-top: 10vh;
+  margin: 0 26%;
 }
 
 #service-h2 {
   text-align: center;
   background-color: #f6cdf8;
-  margin: auto 25vw;
 }
 
 .service_container {
   display: flex;
   /* width: 100%; */
   flex-direction: row;
-  margin: 0% 10%;
+  margin: -1.5vh 0;
   align-items: center;
 }
 
 .service-img {
   width: 17.5%;
   height: auto;
-  flex-grow: 1;
+  margin-right:40px;
 }
 
 .service_div {
@@ -135,7 +134,6 @@ body {
 }
 
 .service_description {
-  flex-grow: 3;
   text-align: justify;
   width: 100%;
   margin-bottom: 4%;
@@ -208,12 +206,8 @@ body {
   /* flex-shrink: 0; */
   padding: 10px;
   margin: 1%;
-  flex-grow: 1;
   flex-direction: column;
   border-radius: 5%;
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
   max-width: 33.3%;
   max-height: 30em;
   background-color: rgba(222, 250, 249, 1);
@@ -309,8 +303,8 @@ span {
   }
 
   #main {
-    padding-top: 30%;
-    margin: auto 10%;
+    padding-top: 10%;
+    margin: 0;
   }
 
   .service_container {
